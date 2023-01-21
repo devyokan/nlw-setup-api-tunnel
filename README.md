@@ -1,3 +1,8 @@
+
+## Observação
+
+Esse método só funcional para modo desenvolvimento, em produção não vai precisar de nada disso
+
 ## Configurando a API
 
 Primeiro você vai precisar instalar uma dependência, indo na pasta `server` da api e usando:
@@ -9,18 +14,19 @@ npm i localtunnel
 Após isso, você vai no seu `src/server.ts` na api e inserir dessa forma
 
 ```javascript
-app.listen({
-  host: '0.0.0.0',
-  port: 3333,
+app
+.listen({
+	host: '0.0.0.0',
+	port: 3333,
 })
 .then(async () => {
-  const tunnel = await localtunnel({
-    local_host: '0.0.0.0',
-    port: 3333,
-    subdomain: 'habits-api',
-  });
+	const tunnel = await localtunnel({
+		local_host: '0.0.0.0',
+		port: 3333,
+		subdomain: 'habits-api',
+	});
 
-  console.log('HTTP Server Running!');
+	console.log('HTTP Server Running!');
 });
 ```
 
