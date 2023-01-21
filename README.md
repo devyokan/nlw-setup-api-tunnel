@@ -1,6 +1,6 @@
 ## Configurando a API
 
-Primeiro você vai precisar instalar uma dependência
+Primeiro você vai precisar instalar uma dependência, indo na pasta `server`, da api e usando:
 
 ```
 npm i localtunnel
@@ -25,7 +25,7 @@ app
 	});
 ```
 
-**Você vai precisar alterar o subdomínio com algum aleatório pois já pode estar sendo utilizado.**
+**Você vai precisar alterar o subdomínio com algum diferente pois já pode estar sendo utilizado.**
 
 ## Configurando a aplicação mobile
 
