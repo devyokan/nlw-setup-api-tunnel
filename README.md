@@ -1,7 +1,7 @@
 
 ## Observação
 
-Esse método só funcional para modo desenvolvimento, em produção não vai precisar de nada disso
+Esse método só é funcional para modo desenvolvimento, em produção não vai precisar de nada disso
 
 ## Configurando a API
 
