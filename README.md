@@ -1,6 +1,9 @@
 
 ## Observação
 
+Caso a sua aplicação mobile não esteja conseguindo enviar requisições para a API mesmo que tenha configurado o `host` para `0.0.0.0` no Fastify.listen(). Então essa solução é para você.
+Um problema que pode ser chato, é que se você não mandar nenhuma requisição para o link do tunnel por um pequeno período, a conexão automaticamente se fecha. Então você precisa iniciar novamente.
+
 Esse método só é funcional para modo desenvolvimento, em produção não vai precisar de nada disso
 
 ## Configurando a API
